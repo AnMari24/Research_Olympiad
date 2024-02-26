@@ -89,7 +89,8 @@ void checkN(double n, double sqrtn) {
 }
 
 int main() {
-    double n, sqrtn;
+    int n;
+    double sqrtn;
     cin >> n;
     sqrtn = sqrt(n);
     checkN(n, sqrtn);
@@ -105,6 +106,5 @@ int main() {
     if (solveSudoku(sudoku, n, sqrtn)) {
         printSudoku(sudoku, n);
     }
-    
     return 0;
 }
